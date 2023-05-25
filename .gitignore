@@ -1,1 +1,57 @@
 executables/
+
+# Fichiers d'environnement Python
+venv/
+env/
+env.bak/
+
+# Fichiers de dépendances Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Fichiers de sortie
+*.log
+*.pot
+*.pyc
+*.swp
+*.swo
+*.class
+
+# Fichiers de configuration
+*.cfg
+*.conf
+
+# Fichiers de sauvegarde
+*~
+.*~
+*.bak
+*.backup
+
+# Fichiers de cache
+.cache/
+.cached/
+
+# Fichiers de documentation générée
+doc/
+docs/
+html/
+build/
+dist/
+
+# Fichiers de résultats de tests
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Fichiers spécifiques à l'éditeur de code
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
